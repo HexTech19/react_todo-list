@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+.app {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(70, 70, 252),
+    rgb(0, 0, 240)
+  );
+}
+
+.form {
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input,
+button {
+  height: 4rem;
+}
+
+.form input {
+  width: 30rem;
+  font-size: 2rem;
+
+  text-align: center;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  width: 4rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  background-color: rgb(59, 59, 225);
+}
+
+.items {
+  height: 4rem;
+  min-width: 24rem;
+  background-color: rgb(214, 214, 214);
+  margin-bottom: 1.5rem;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items input {
+  float: left;
+  height: 4rem;
+  width: 4rem;
+}
+
+.items button {
+  float: right;
+  width: 4rem;
+}
+
+.items p {
+  padding: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer select {
+  padding: 1.2rem 3rem;
+  margin-right: 4rem;
+
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer button {
+  padding: 1.3rem 3rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+
+  text-align: center;
+  border: none;
+}
+
+.footer button:hover {
+  color: blue;
+}
